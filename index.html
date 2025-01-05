@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <a href="#" class="logo">Магазин</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#products">Товары</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="container">
+                <h1>Добро пожаловать в наш магазин</h1>
+                <p>Лучшие товары по доступным ценам.</p>
+                <a href="#products" class="btn">Посмотреть товары</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Наши товары</h2>
+            <div class="products-grid">
+                <div class="product-item">
+                    <img src="https://via.placeholder.com/400x300" alt="Товар 1">
+                    <h3>Товар 1</h3>
+                    <p>Описание товара 1.</p>
+                    <p class="price">$100</p>
+                    <a href="#" class="btn">Купить</a>
+                </div>
+                <div class="product-item">
+                    <img src="https://via.placeholder.com/400x300" alt="Товар 2">
+                    <h3>Товар 2</h3>
+                    <p>Описание товара 2.</p>
+                    <p class="price">$150</p>
+                    <a href="#" class="btn">Купить</a>
+                </div>
+                <div class="product-item">
+                    <img src="https://via.placeholder.com/400x300" alt="Товар 3">
+                    <h3>Товар 3</h3>
+                    <p>Описание товара 3.</p>
+                    <p class="price">$200</p>
+                    <a href="#" class="btn">Купить</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>О нас</h2>
+            <p>Мы предлагаем качественные товары по доступным ценам. Наша цель — сделать вашу жизнь лучше.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Контакты</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Ваше имя" required>
+                <input type="email" name="email" placeholder="Ваш email" required>
+                <textarea name="message" placeholder="Ваше сообщение" required></textarea>
+                <button type="submit" class="btn">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Магазин. Все права защищены.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
